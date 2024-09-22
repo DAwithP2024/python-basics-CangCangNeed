@@ -46,7 +46,7 @@ def display_categories():
     print("\nCategories:")
     for index, category in enumerate(products.keys(), start=1):
        print(f"{index}. {category}")
-    return None
+    return None 
 #Adds a product and quantity to the cart.
 def add_to_cart(cart, product, quantity):
     cart.append((product[0], product[1], quantity))
